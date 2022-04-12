@@ -1,0 +1,1341 @@
+Unity Editor version:    2021.2.14f1 (bcb93e5482d2)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61480
+Successfully changed project path to: /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2
+/Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 65.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.14f1 (bcb93e5482d2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56398
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000377 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 72.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.457 seconds
+Domain Reload Profiling:
+	ReloadAssembly (458ms)
+		BeginReloadAssembly (35ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (344ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000993 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Domain Reload Profiling:
+	ReloadAssembly (642ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (35.8 KB). Loaded Objects now: 3568.
+Memory consumption went from 279.1 MB to 279.0 MB.
+Total: 2.685333 ms (FindLiveObjects: 0.110458 ms CreateObjectMapping: 0.042875 ms MarkObjects: 2.466125 ms  DeleteObjects: 0.064500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 576373.819106 seconds.
+  path: Assets/Models/Corridor/Wall_Straight_Exterior_03.fbx
+  artifactKey: Guid(c11d870118a768c4e9205040e2d8503b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/Wall_Straight_Exterior_03.fbx using Guid(c11d870118a768c4e9205040e2d8503b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'edd8e786aba9d7bd5ab56ce549723d3c') in 0.175482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Materials/DiningRoom/Clock.mat
+  artifactKey: Guid(8d2783b3e3276774b8ee18214091ac89) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/DiningRoom/Clock.mat using Guid(8d2783b3e3276774b8ee18214091ac89) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ca304e6798b099beb7d78c3a1fdcdfe9') in 0.027177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Materials/Bathroom/Mirror.mat
+  artifactKey: Guid(3086cb16e9941b845ac6e853a3a4e5b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Bathroom/Mirror.mat using Guid(3086cb16e9941b845ac6e853a3a4e5b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '55c4d11e92f05d6498844938da58ee21') in 0.001888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Shaders/SpookyStandardShader.shader
+  artifactKey: Guid(1eb9c0266056a2e4cb9ec2719955e6c7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Shaders/SpookyStandardShader.shader using Guid(1eb9c0266056a2e4cb9ec2719955e6c7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2b5ae0b9875038897f230e280ca574b8') in 0.028407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Materials/Corridor/Floor.mat
+  artifactKey: Guid(059e99a55d1d3614ebfbdffbbe2e3e25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Corridor/Floor.mat using Guid(059e99a55d1d3614ebfbdffbbe2e3e25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e719660391e090dd2178576393bc8876') in 0.001760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Bathroom/Radiator.fbx
+  artifactKey: Guid(19e3879d616ebf74bbfa7790d48acfad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Bathroom/Radiator.fbx using Guid(19e3879d616ebf74bbfa7790d48acfad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ef26b02fc4bb6fb4e3692bdcadecbb81') in 0.002380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Bathroom/Sink.fbx
+  artifactKey: Guid(29f8732179c306741966fcd26426f55e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Bathroom/Sink.fbx using Guid(29f8732179c306741966fcd26426f55e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '06c2e6a9cdec55d4e321ecccd769647e') in 0.002010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Materials/Bathroom/Pipes.mat
+  artifactKey: Guid(b1512eb4ac821d144a9ed308b1f32108) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Bathroom/Pipes.mat using Guid(b1512eb4ac821d144a9ed308b1f32108) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2828fb86a546ad81086d8bc377fa1a8d') in 0.001948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Audio/SFXWin.wav
+  artifactKey: Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Audio/SFXWin.wav using Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6b072115828f834cffb7d2c9f5a6493c') in 0.031586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Materials/DiningRoom/Floor.mat
+  artifactKey: Guid(060e5db52eac3d945bda1acfb5e7c4bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/DiningRoom/Floor.mat using Guid(060e5db52eac3d945bda1acfb5e7c4bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8c337e136c734ba4fa8e7d6fe9dd6f49') in 0.002107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Models/Corridor/PictureFrame_GhostMan.FBX
+  artifactKey: Guid(ff679918594d2cb44996e920ec16ca62) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/PictureFrame_GhostMan.FBX using Guid(ff679918594d2cb44996e920ec16ca62) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2bd91c39fe1b09bf06ba989c498de697') in 0.028414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Audio/SFXFootstepsLooping.wav
+  artifactKey: Guid(07e520bb410492d47bf739846d70f2a3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Audio/SFXFootstepsLooping.wav using Guid(07e520bb410492d47bf739846d70f2a3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '610f7f45e41f8655918531876fd629bf') in 0.001638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Corridor/Wall_Corner_Interior.fbx
+  artifactKey: Guid(9da5aa368549f3e4883e3ca4b3ed05b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/Wall_Corner_Interior.fbx using Guid(9da5aa368549f3e4883e3ca4b3ed05b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c08dfabe3c49c2b800949db988edbba6') in 0.002157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/DiningRoom/Table.mat
+  artifactKey: Guid(147dac9aa1b5dd149a5ad652019e5ac8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/DiningRoom/Table.mat using Guid(147dac9aa1b5dd149a5ad652019e5ac8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7b38c47a525e83e8bb253f7425adf272') in 0.001461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Characters/JohnLemon.fbx
+  artifactKey: Guid(b44f3940c4940544a8c2c6aee5fa086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Characters/JohnLemon.fbx using Guid(b44f3940c4940544a8c2c6aee5fa086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e6122cbbc154283707406078bc3c0ef4') in 0.003945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Corridor/PictureFrame_StraightThin.FBX
+  artifactKey: Guid(2de78e17331d71b49bd26432f0301b13) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/PictureFrame_StraightThin.FBX using Guid(2de78e17331d71b49bd26432f0301b13) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6f14398214e0bcadef6ee4ffd9c95ac2') in 0.002119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/BedRoom/Bed.mat
+  artifactKey: Guid(f9b5ce623b689d74d8e935a8c979ffc0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/BedRoom/Bed.mat using Guid(f9b5ce623b689d74d8e935a8c979ffc0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7fee0b806de8791d77c05235d9313b60') in 0.001472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/DiningRoom/Wall_Diningroom.mat
+  artifactKey: Guid(af5618451dbad9c4a913f502e5c7df1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/DiningRoom/Wall_Diningroom.mat using Guid(af5618451dbad9c4a913f502e5c7df1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6062ecb1b78650ba647b15f954f8fc7e') in 0.001545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Corridor/Light.FBX
+  artifactKey: Guid(fc0082b7f28474047b0d08e22d9a0a06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/Light.FBX using Guid(fc0082b7f28474047b0d08e22d9a0a06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dcc509b9fad5e6291913cecb1da74b4a') in 0.003267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Models/Corridor/CeilingPlane.fbx
+  artifactKey: Guid(4aa23393587d7204bbc9f4a30599bf61) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/CeilingPlane.fbx using Guid(4aa23393587d7204bbc9f4a30599bf61) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '872af6fb75ece93872adcea0098f9fe5') in 0.002083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(bde871b9f58be4ce98785291dd6c348d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(bde871b9f58be4ce98785291dd6c348d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd3eb296ae081f75a9b2b890914e2e09c') in 0.086648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Materials/Corridor/PictureFrame.mat
+  artifactKey: Guid(e709f83e862ff314e8258b7a60c45ce2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Corridor/PictureFrame.mat using Guid(e709f83e862ff314e8258b7a60c45ce2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f3ef4babefcb2d5c7ec334a004fcc735') in 0.001724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scripts/LightFlicker.cs
+  artifactKey: Guid(24a255a6b0082bd429262fb040110f12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/LightFlicker.cs using Guid(24a255a6b0082bd429262fb040110f12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '62da67645d3c741e26b34d5d9b678b81') in 0.002241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/DiningRoom/CandleStick.mat
+  artifactKey: Guid(8d2cd8bfb9126c744ba6ef80defb2620) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/DiningRoom/CandleStick.mat using Guid(8d2cd8bfb9126c744ba6ef80defb2620) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c72276ce3191bddba64bf31596736267') in 0.001741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'eb02724775e85fbb99333daf251ad626') in 0.025864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/Corridor/Light_Glass.mat
+  artifactKey: Guid(d50d52e4c69a3cf45bf45594297ca6c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Corridor/Light_Glass.mat using Guid(d50d52e4c69a3cf45bf45594297ca6c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd1a357b417f9bd57327e3e01e29bc75b') in 0.001937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials/Bathroom/Bathtub.mat
+  artifactKey: Guid(b80a9d3765165844c9e6e6505f6d511c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Bathroom/Bathtub.mat using Guid(b80a9d3765165844c9e6e6505f6d511c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1d0d1f83705aaff4b11ff56a9ff053c1') in 0.001699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/Bathroom/Sink.mat
+  artifactKey: Guid(7dc883052ccb59842a9c6b10113e1470) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Bathroom/Sink.mat using Guid(7dc883052ccb59842a9c6b10113e1470) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '442841d8dfa8a3109898e8ad35647fc1') in 0.001649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/DiningRoom/Chair.mat
+  artifactKey: Guid(41a54a7b601421848ac1ee00bed0c867) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/DiningRoom/Chair.mat using Guid(41a54a7b601421848ac1ee00bed0c867) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3115aba066833bbb99a58e0b22251c66') in 0.001704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Bathroom/Bathtub_Leg.fbx
+  artifactKey: Guid(3e66c691a68a4474286320eb7029e026) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Bathroom/Bathtub_Leg.fbx using Guid(3e66c691a68a4474286320eb7029e026) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5134fcfe22a2929a89d1d585cbcab917') in 0.002284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Animation/Animation/John@Walk.fbx
+  artifactKey: Guid(da1625e6a723d1745a6ba7f6565a130f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Animation/Animation/John@Walk.fbx using Guid(da1625e6a723d1745a6ba7f6565a130f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c548534f9f56350ea1e88d8260b18b9f') in 0.005248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animation/Animation/John@Idle.fbx
+  artifactKey: Guid(873202b19b03a8a4e976f0b15d21cd24) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Animation/Animation/John@Idle.fbx using Guid(873202b19b03a8a4e976f0b15d21cd24) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8a63ac699da7795cf765b9ae0657ff5e') in 0.006273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Materials/VFX/WaterDropSmall.mat
+  artifactKey: Guid(c4d4365c3eeb8a54183f5af15699021d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/VFX/WaterDropSmall.mat using Guid(c4d4365c3eeb8a54183f5af15699021d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd96f6b83d12475add332bea5beebf99b') in 0.001829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Shaders/PlaneFog.shader
+  artifactKey: Guid(ce34212e0d9bc444ba1af3f2df6c6533) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Shaders/PlaneFog.shader using Guid(ce34212e0d9bc444ba1af3f2df6c6533) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '19c72d3f4e0bf208dff667f24991e3cf') in 0.002786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Audio/SFXGhostMove.wav
+  artifactKey: Guid(98ea14dfdb9dce74a976520f134fd1a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Audio/SFXGhostMove.wav using Guid(98ea14dfdb9dce74a976520f134fd1a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bca29f9b474de7ffba50a6f6eb3abb2a') in 0.001485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/BedRoom/Wall_Bedroom.mat
+  artifactKey: Guid(a1d7f57e6086c9a4bb159a2e0cfb2228) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/BedRoom/Wall_Bedroom.mat using Guid(a1d7f57e6086c9a4bb159a2e0cfb2228) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e1e37e4d1c7407d636c4e7af5c0e3e70') in 0.001785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Corridor/Wall_Windows_Straight.fbx
+  artifactKey: Guid(1a07ed1dbd440384c89497a167bde353) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/Wall_Windows_Straight.fbx using Guid(1a07ed1dbd440384c89497a167bde353) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '44e4acb3c214581eda9c8a7293a942eb') in 0.002039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animation/Animators/JohnLemon.controller
+  artifactKey: Guid(3d1482acea22b4d9281efc362ac3b4ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Animation/Animators/JohnLemon.controller using Guid(3d1482acea22b4d9281efc362ac3b4ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '785fea66c6b6a37fcc811790015572ad') in 0.026029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Materials/Corridor/Window.mat
+  artifactKey: Guid(5d7f4ca07121e414288c4908a4803bed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Corridor/Window.mat using Guid(5d7f4ca07121e414288c4908a4803bed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ed092b22bcc99db8595a99c7a3e38f17') in 0.001727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/VFX/CandleFlame.mat
+  artifactKey: Guid(d960d897cdc819041a73dceb80befb85) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/VFX/CandleFlame.mat using Guid(d960d897cdc819041a73dceb80befb85) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '28e424336f61f9b3a5ebf5faeaddd0d5') in 0.001789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/Bathroom/BathtubLeg.mat
+  artifactKey: Guid(d7e2196a7a474e74fba16ada321c14f2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Bathroom/BathtubLeg.mat using Guid(d7e2196a7a474e74fba16ada321c14f2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4ece2c6d3eb4ad7165faab44c8920ac1') in 0.002140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animation/Animation/Gargoyle@Idle.fbx
+  artifactKey: Guid(475d389e70692ca4abb09caca1aef9ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Animation/Animation/Gargoyle@Idle.fbx using Guid(475d389e70692ca4abb09caca1aef9ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '86fcf8b3078e7431a289c4ea2af8f223') in 0.011755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(5aa8565dc31eb3f4a97f05eb11fe8445) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Readme.asset using Guid(5aa8565dc31eb3f4a97f05eb11fe8445) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2f94c88a9e3f57f0688f17455c09ac79') in 0.026641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Materials/Corridor/Rugs.mat
+  artifactKey: Guid(f5b8db6c5de6a6a4984f8dd09c302b59) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Corridor/Rugs.mat using Guid(f5b8db6c5de6a6a4984f8dd09c302b59) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'acf143669720bd1d93c0d4b2ec5a4b58') in 0.001773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/BathRoom/BathtubLeg_MetallicSmooth.tif
+  artifactKey: Guid(035b28d384a3fe44c96407179c34f574) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/BathtubLeg_MetallicSmooth.tif using Guid(035b28d384a3fe44c96407179c34f574) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8a3bbe654b745a25d88bcaa0d59af05a') in 0.503454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/BedRoom/Floor_Bedroom_Albedo.tif
+  artifactKey: Guid(56c954657cc3f50449a5c668ebf4b18c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Floor_Bedroom_Albedo.tif using Guid(56c954657cc3f50449a5c668ebf4b18c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fe3d32fd08e10883f91fd9b971c078cf') in 0.002090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures/BathRoom/Sink_MetallicSmooth.tif
+  artifactKey: Guid(21c4410ea00f38b40854a36ae65ad2f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Sink_MetallicSmooth.tif using Guid(21c4410ea00f38b40854a36ae65ad2f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '52e3b4e7674a3f5d1bdb27374328bdf3') in 0.002364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/BathRoom/Radiator_MetallicSmooth.tif
+  artifactKey: Guid(6ff967b7e855f1c4aa4bf8f6a2bee20e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Radiator_MetallicSmooth.tif using Guid(6ff967b7e855f1c4aa4bf8f6a2bee20e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e48756a48410d426bb4377ecc0c9fe46') in 0.002137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/BathRoom/Wall_Bathroom_Normal.tif
+  artifactKey: Guid(56cd7d94e42eb12438f1cdbf457dd4de) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Wall_Bathroom_Normal.tif using Guid(56cd7d94e42eb12438f1cdbf457dd4de) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '623acf976659f7a4ea2416573adb89db') in 0.001975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/BathRoom/Pipe_Normal.tif
+  artifactKey: Guid(a9fc6e48f7f8fe8438c73bb972362259) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Pipe_Normal.tif using Guid(a9fc6e48f7f8fe8438c73bb972362259) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8d92d8ab0041b9440cb87f465083cf2a') in 0.002431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Textures/BathRoom/Bathtub_Normal.tif
+  artifactKey: Guid(77ca587615e748e44848958159bf200d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Bathtub_Normal.tif using Guid(77ca587615e748e44848958159bf200d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '07c9fee297ebb7edf115ce88a9d20caa') in 0.002291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Diningroom/Monster_Lamp.fbx
+  artifactKey: Guid(a6cb4aad363f3fb419fd659b5facc519) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Diningroom/Monster_Lamp.fbx using Guid(a6cb4aad363f3fb419fd659b5facc519) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bf0e4cbf650395ab02e6e6fa7ec68cc5') in 0.002558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Characters/Gargoyle_Occlusion.tif
+  artifactKey: Guid(d3bc81db12f03c84091f40384beda6c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Characters/Gargoyle_Occlusion.tif using Guid(d3bc81db12f03c84091f40384beda6c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a8b65827a7dfe9a997ae6da876a4e581') in 0.002591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/BathRoom/Radiator_Normal.tif
+  artifactKey: Guid(0106aeee9b63e1043a45c32b560576de) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Radiator_Normal.tif using Guid(0106aeee9b63e1043a45c32b560576de) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '857242710318013cc7f038d63b054344') in 0.002387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures/BedRoom/BedSide_Occlusion.tif
+  artifactKey: Guid(6fece7bb55bcfd54c9ea204b2b93753a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/BedSide_Occlusion.tif using Guid(6fece7bb55bcfd54c9ea204b2b93753a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9af197845585deeee47454b216713e6e') in 0.001638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/BathRoom/Floor_Bathroom_Gloss.tif
+  artifactKey: Guid(7aac3d8b683cb714a8401a466f41f189) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Floor_Bathroom_Gloss.tif using Guid(7aac3d8b683cb714a8401a466f41f189) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0d1e5461c2711f1cd5d3810a4f40c954') in 0.002435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/VFX/RisingSteam.prefab
+  artifactKey: Guid(efe021d4c307b5449b8121d46791cf95) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/VFX/RisingSteam.prefab using Guid(efe021d4c307b5449b8121d46791cf95) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '42a0b1e045f67d9c63c7cbf915715329') in 0.031205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs/VFX/DustMotesEffect.prefab
+  artifactKey: Guid(5ca4c580b3888314581688fa46fb142d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/VFX/DustMotesEffect.prefab using Guid(5ca4c580b3888314581688fa46fb142d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1af757e24f2c89b6e1c9945c411d9959') in 0.003786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Textures/Characters/Ghost_Occlusion.tif
+  artifactKey: Guid(d0a98f268b60d0441ae4e70dc8560a5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Characters/Ghost_Occlusion.tif using Guid(d0a98f268b60d0441ae4e70dc8560a5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '54e3a70114f38c2e183c726be49372d0') in 0.002537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/BedRoom/Floor_Bedroom_MetallicSmooth.tif
+  artifactKey: Guid(0d1789fa8719b394dac85ee60356bb9c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Floor_Bedroom_MetallicSmooth.tif using Guid(0d1789fa8719b394dac85ee60356bb9c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '02ed37692cdcfda2dc5172a7c549b2c1') in 0.002171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/BedRoom/Bed_MetallicSmooth.tif
+  artifactKey: Guid(e142a5b58f3559844b4be8596b56c53c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Bed_MetallicSmooth.tif using Guid(e142a5b58f3559844b4be8596b56c53c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fc44d25adf0d0dc719cdeacaf24a009f') in 0.001620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/Characters/Gargoyle_Albedo.tif
+  artifactKey: Guid(a5fd5ae3aaf893e4197df481b8c9346e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Characters/Gargoyle_Albedo.tif using Guid(a5fd5ae3aaf893e4197df481b8c9346e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83457eb30ba2eb1f2098676985ee40c1') in 0.002108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/BathRoom/Floor_Bathroom_MetallicSmooth.tif
+  artifactKey: Guid(9b75a955ca7b6b84babaa891e2ca217f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Floor_Bathroom_MetallicSmooth.tif using Guid(9b75a955ca7b6b84babaa891e2ca217f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1657b92d652412dca9dd2e2c2f52cc96') in 0.002030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Diningroom/Floor_Diningroom.fbx
+  artifactKey: Guid(698328cb89c262d47803daf585012ed8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Diningroom/Floor_Diningroom.fbx using Guid(698328cb89c262d47803daf585012ed8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e4660217e098fed1f26f08bbed674640') in 0.002498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/BathRoom/Pipe_MetallicSmooth.tif
+  artifactKey: Guid(7da4809b977474d4695da2f3933ff430) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Pipe_MetallicSmooth.tif using Guid(7da4809b977474d4695da2f3933ff430) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '84562d977a4b6b0ad7726e641f4d9e70') in 0.002223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Diningroom/Clock.FBX
+  artifactKey: Guid(91811fda631823c49b536c0b67dfec68) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Diningroom/Clock.FBX using Guid(91811fda631823c49b536c0b67dfec68) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4d5f9f36721da9b7e89fa15072caa82e') in 0.001724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/MainScene/NavMesh.asset
+  artifactKey: Guid(5d1d6dd5106e34a259cebf465d9ffa45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/MainScene/NavMesh.asset using Guid(5d1d6dd5106e34a259cebf465d9ffa45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dd4a61dfa69954f257c473efd7fea4c3') in 0.001694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Textures/BathRoom/Mirror_Normal.tif
+  artifactKey: Guid(f39e87291c3236f4fb7f42c125ce2502) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Mirror_Normal.tif using Guid(f39e87291c3236f4fb7f42c125ce2502) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1fed817e0703159a40fdc1a4c5a7ac7a') in 0.002487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/BedRoom/BedSide_Albedo.tif
+  artifactKey: Guid(b4d856ea788f6514cb8dc3c068fb48a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/BedSide_Albedo.tif using Guid(b4d856ea788f6514cb8dc3c068fb48a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '650a325f69d3378d602498bcea986872') in 0.001848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/BedRoom/Wall_Bedroom_Occlusion.tif
+  artifactKey: Guid(4fb46e6004800a041b402ee8dba3a9b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Wall_Bedroom_Occlusion.tif using Guid(4fb46e6004800a041b402ee8dba3a9b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e6aa92eaaf1f711c67599062b4bc4886') in 0.002899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/BathRoom/Bathtub_Albedo.tif
+  artifactKey: Guid(1e33795d9bd064b43bde9b8d2040802f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Bathtub_Albedo.tif using Guid(1e33795d9bd064b43bde9b8d2040802f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6c179587b6b9e9a12b3c468373958e14') in 0.002688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/BathRoom/Mirror_MetallicSmooth.tif
+  artifactKey: Guid(f2897444e56a62f45813d612a9ae6726) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Mirror_MetallicSmooth.tif using Guid(f2897444e56a62f45813d612a9ae6726) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c38ed347e6a02d9972a4e2f53ee8916c') in 0.002401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/BathRoom/Wall_Bathroom_Albedo.tif
+  artifactKey: Guid(09664c153c68ab947b77deba659408dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Wall_Bathroom_Albedo.tif using Guid(09664c153c68ab947b77deba659408dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd9e4183809fa84ef86dcacadecdf0301') in 0.001788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/VFX/CandleFlame.prefab
+  artifactKey: Guid(a24956b5a0e552047a522ea09e794d95) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/VFX/CandleFlame.prefab using Guid(a24956b5a0e552047a522ea09e794d95) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e3e689e28c5aba744c77ff2ddbf14390') in 0.003306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Diningroom/Table.FBX
+  artifactKey: Guid(2c74f046c01bd7e4591c2e4e2567ca46) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Diningroom/Table.FBX using Guid(2c74f046c01bd7e4591c2e4e2567ca46) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'eb7327efb2fcac41c5f2371f77c3db52') in 0.001912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/BathRoom/Floor_Bathroom_Normal.tif
+  artifactKey: Guid(d028a69709938384faa0084792e6973c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Floor_Bathroom_Normal.tif using Guid(d028a69709938384faa0084792e6973c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4450aca3961ff64e17f802a5431a5392') in 0.002555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Corridor/Door.FBX
+  artifactKey: Guid(4f50f81dc956a044fa3c905056d1cc4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/Door.FBX using Guid(4f50f81dc956a044fa3c905056d1cc4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '998ed290249641c1a419e577a08d1c8f') in 0.002031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials/Bathroom/Wall_Bathroom.mat
+  artifactKey: Guid(785750043eaf5004da3d0b54f39941c1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Bathroom/Wall_Bathroom.mat using Guid(785750043eaf5004da3d0b54f39941c1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3b47fbcbed2ad164108cd7b4d1764e67') in 0.001883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Materials/Corridor/Wall_Corridor.mat
+  artifactKey: Guid(b6a0ac0240204cb4ea4b84d1e2dab2b5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Corridor/Wall_Corridor.mat using Guid(b6a0ac0240204cb4ea4b84d1e2dab2b5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aec65b326194617f1b749a2c3a40c694') in 0.001495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/BedRoom/Wall_Bedroom_MetallicSmooth.tif
+  artifactKey: Guid(1851897a7b3cb3b40b51ccea727ee4c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Wall_Bedroom_MetallicSmooth.tif using Guid(1851897a7b3cb3b40b51ccea727ee4c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6260e691d95b35f350221d6df2bc6f11') in 0.002361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/BedRoom/Bed_Occlusion.tif
+  artifactKey: Guid(060bae91606084849a8ee3fdc288af12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Bed_Occlusion.tif using Guid(060bae91606084849a8ee3fdc288af12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5a7c40c9041d81a2983cb3d3f1a9d2a8') in 0.001869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Audio/SFXBuzzingLight.wav
+  artifactKey: Guid(86e0f005f0b8e084698c2cf61bb6c2b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Audio/SFXBuzzingLight.wav using Guid(86e0f005f0b8e084698c2cf61bb6c2b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd652495fe00fde414c37cebe0994eddf') in 0.001395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Corridor/PictureFrame_CatLady.FBX
+  artifactKey: Guid(913d61a5ca2d96d43ba1c709260d55a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/PictureFrame_CatLady.FBX using Guid(913d61a5ca2d96d43ba1c709260d55a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '267c9381794e38602a7c2490ad60c92b') in 0.002943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Diningroom/CandleStick.FBX
+  artifactKey: Guid(e22a5b6ca349db446bb2a6d28267d80b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Diningroom/CandleStick.FBX using Guid(e22a5b6ca349db446bb2a6d28267d80b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f22063e5c53e45a4704fcb0f7bba8d9d') in 0.002214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/BathRoom/Wall_Bathroom_Occlusion.tif
+  artifactKey: Guid(ccd8d6ec7f5c33244ab0108edf362764) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Wall_Bathroom_Occlusion.tif using Guid(ccd8d6ec7f5c33244ab0108edf362764) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '47127e41a46cc952e7596eccdc1e5b7e') in 0.002111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Corridor/Wall_Straight_Exterior_01.fbx
+  artifactKey: Guid(1d270d22136a7e64eabcf39aaaedb613) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Corridor/Wall_Straight_Exterior_01.fbx using Guid(1d270d22136a7e64eabcf39aaaedb613) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5baf8b955dd8e4b51fea15782e422b68') in 0.002495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Materials/BedRoom/Wardrobe.mat
+  artifactKey: Guid(9e2335d028e7ab645970536c61cf4aac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/BedRoom/Wardrobe.mat using Guid(9e2335d028e7ab645970536c61cf4aac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2b8e0830dc3bf8c78f3260ccfb5c39dc') in 0.001653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials/Characters/JohnPBR.mat
+  artifactKey: Guid(ec8dc473ea10be74bada0165e17a99d9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Characters/JohnPBR.mat using Guid(ec8dc473ea10be74bada0165e17a99d9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83aff0fc7b87718f678374a3ed324e0e') in 0.001604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Bedroom/Wardrobe.fbx
+  artifactKey: Guid(0d1a084dedf18a344a48599b075521ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Bedroom/Wardrobe.fbx using Guid(0d1a084dedf18a344a48599b075521ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd0c513183d25a06b8a021345b3563422') in 0.002684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/BathRoom/Pipe_Occlusion.tif
+  artifactKey: Guid(3b84af017fcbb4e4a9adbd89a6ed81c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Pipe_Occlusion.tif using Guid(3b84af017fcbb4e4a9adbd89a6ed81c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2a2fc525f2647f7b3e9d0ccb6d700cff') in 0.002167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/BedRoom/Bed_Normal.tif
+  artifactKey: Guid(6e2078e311db62b4fbe281f7e5ef27da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Bed_Normal.tif using Guid(6e2078e311db62b4fbe281f7e5ef27da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e327197c5a09f1bbe5d96459f12b6d65') in 0.001833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/Bathroom/Radiator.mat
+  artifactKey: Guid(2d63e5640f378c04ebe27363eb0fff0c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Bathroom/Radiator.mat using Guid(2d63e5640f378c04ebe27363eb0fff0c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '88c22bd5976532a742a555059d17a7c3') in 0.001787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials/Characters/JohnToon.mat
+  artifactKey: Guid(a0f36fc0d25b946499ac2f95f2b6ab9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Characters/JohnToon.mat using Guid(a0f36fc0d25b946499ac2f95f2b6ab9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ebbe166701e39528b5e564567e0c7472') in 0.001645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/BathRoom/Sink_Normal.tif
+  artifactKey: Guid(23f65d9c07a8f734a9303a1b91f19e39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Sink_Normal.tif using Guid(23f65d9c07a8f734a9303a1b91f19e39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a91ca6e1e634ab5771cc3909042011e8') in 0.002445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/BedRoom/Floor_Bedroom_Normal.tif
+  artifactKey: Guid(08c9198dcd6c19e459e53914775ecbba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Floor_Bedroom_Normal.tif using Guid(08c9198dcd6c19e459e53914775ecbba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c687657ba6cf014bbf31c480f4a3bc47') in 0.002083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/BedRoom/Bed_Albedo.tif
+  artifactKey: Guid(29ce91977ba80d54ba227ab8593a8156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BedRoom/Bed_Albedo.tif using Guid(29ce91977ba80d54ba227ab8593a8156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7ce1f90f230b1233adae4a2d1180c744') in 0.001642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/BathRoom/Bathtub_MetallicSmooth.tif
+  artifactKey: Guid(d4766011bebe0f94f8852e78e1f2fadf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Bathtub_MetallicSmooth.tif using Guid(d4766011bebe0f94f8852e78e1f2fadf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a88549f9932f458625aba06119c82c3b') in 0.003259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/BathRoom/Wall_Bathroom_MetallicSmooth.tif
+  artifactKey: Guid(c347cde124f07b3458f80c005e7bca31) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/BathRoom/Wall_Bathroom_MetallicSmooth.tif using Guid(c347cde124f07b3458f80c005e7bca31) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '81012a28d730fd8b22806e28dea52eb1') in 0.002266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/BedRoom/Floor.mat
+  artifactKey: Guid(2bfd182a00290924abf99a86daf1e23c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/BedRoom/Floor.mat using Guid(2bfd182a00290924abf99a86daf1e23c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4368ca44384a738b8ef69a39508e3b12') in 0.001834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Audio/SFXHouseAmbience.wav
+  artifactKey: Guid(205287722f2b6b64583b86d65fdeeb11) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Audio/SFXHouseAmbience.wav using Guid(205287722f2b6b64583b86d65fdeeb11) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6649e7e7da8e2ad57e64d648de4a9e4c') in 0.001658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Gizmos/Cinemachine/cm_logo_lg.png
+  artifactKey: Guid(d0ceea9f3e3fc1d4e8656992705ebec1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Gizmos/Cinemachine/cm_logo_lg.png using Guid(d0ceea9f3e3fc1d4e8656992705ebec1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7f1604d1d409ac150f76de36a983c17a') in 0.497880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Textures/DiningRoom/CandleStick_Occlusion.tif
+  artifactKey: Guid(07355442582b14b44b9a74e5e67bbec6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/CandleStick_Occlusion.tif using Guid(07355442582b14b44b9a74e5e67bbec6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9732f9cc289a8a34b2f1ff18fc14d296') in 0.002188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Corridor/FramedPicture_Normal.tif
+  artifactKey: Guid(9bbe29cc5db8feb4c99e20b58bd94afd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/FramedPicture_Normal.tif using Guid(9bbe29cc5db8feb4c99e20b58bd94afd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4fc7e197aafbf4f9ad421d1664e78593') in 0.002846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/VFX/ToonRampTint3.png
+  artifactKey: Guid(168056ae1bacc2f4bb7ae2884953be86) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/VFX/ToonRampTint3.png using Guid(168056ae1bacc2f4bb7ae2884953be86) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3cf48300161567591484c5abdaa2016e') in 0.002581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/VFX/test light.tif
+  artifactKey: Guid(a883414da9be470488ae90f8b6e24623) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/VFX/test light.tif using Guid(a883414da9be470488ae90f8b6e24623) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a6dce64a82cef634c537433d5019b7ec') in 0.002174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/Corridor/Floor_Corridor_MetallicSmooth.tif
+  artifactKey: Guid(ca6d89227d3939240a158a5fde973920) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Floor_Corridor_MetallicSmooth.tif using Guid(ca6d89227d3939240a158a5fde973920) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '39bef5e7d7f187c64bbd5b76df2617b8') in 0.001896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Prefabs/Environment/Bathroom/Bathtub.prefab
+  artifactKey: Guid(f26189160194a0d498daa22e9472b389) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Bathroom/Bathtub.prefab using Guid(f26189160194a0d498daa22e9472b389) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '519b9b13d9eb547f5693aef177b3cb81') in 0.002734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/DiningRoom/Floor_Diningroom_Albedo.tif
+  artifactKey: Guid(daabdafdc2d4a3b4b820f224213f0035) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Floor_Diningroom_Albedo.tif using Guid(daabdafdc2d4a3b4b820f224213f0035) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b1e51ca3560e33a42f240603cb0382a1') in 0.001933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/DiningRoom/CandleStick_Normal.tif
+  artifactKey: Guid(45ab703b0a5a43c4698f496148039fab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/CandleStick_Normal.tif using Guid(45ab703b0a5a43c4698f496148039fab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c22838bfaee624481d5c3eff4b0035da') in 0.001787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Corridor/Window_Occlusion.tif
+  artifactKey: Guid(a7b016836ddb1f54cb67ce567d4995b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Window_Occlusion.tif using Guid(a7b016836ddb1f54cb67ce567d4995b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '318a0291c1a9297e4a4aff6537bc630f') in 0.001782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs/Environment/Bathroom/Sink.prefab
+  artifactKey: Guid(b2cd9ca61be77744ea109931b362b28e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Bathroom/Sink.prefab using Guid(b2cd9ca61be77744ea109931b362b28e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '80965620959e9ce618db4d63cef0f8b4') in 0.002076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/VFX/DustMote.png
+  artifactKey: Guid(394e93ce356b57344903a08ff72fcab2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/VFX/DustMote.png using Guid(394e93ce356b57344903a08ff72fcab2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8490f25be27f8dc4614da7a31d3963c4') in 0.003407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Textures/UI/Caught.png
+  artifactKey: Guid(85d46c7add1129741a0d78fadba6998e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/UI/Caught.png using Guid(85d46c7add1129741a0d78fadba6998e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '63c855a8aa27cea5d3207d6ee844c067') in 0.004696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/Corridor/Wall_Corridor_Occlusion.tif
+  artifactKey: Guid(138b3f1830bb96746943e36fc9e19f6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Wall_Corridor_Occlusion.tif using Guid(138b3f1830bb96746943e36fc9e19f6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '86c2b23dcf8e3d5bc704c1980f7b9ddf') in 0.001923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/DiningRoom/Rug_MetallicSmooth.tif
+  artifactKey: Guid(1bf094c50c7639e4ab5c3d8c9bd8da5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Rug_MetallicSmooth.tif using Guid(1bf094c50c7639e4ab5c3d8c9bd8da5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7198d63f88eb22507830ef84e4d79306') in 0.001703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Corridor/Floor_Corridor_Albedo.tif
+  artifactKey: Guid(f5ff39d7903508740a7f4625ca6d8deb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Floor_Corridor_Albedo.tif using Guid(f5ff39d7903508740a7f4625ca6d8deb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9f92b2b96e3b94fd46dcd7b3f8a5e017') in 0.001866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/VFX/SplatNormal.tif
+  artifactKey: Guid(0660389cc5a6f4947997407fb6945fa1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/VFX/SplatNormal.tif using Guid(0660389cc5a6f4947997407fb6945fa1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c5077f3943cdb1453f19863f4ee8a9ff') in 0.002291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Environment/Corridors/Wall_Corner_Interior.prefab
+  artifactKey: Guid(5a088a5f9e886a64b90e23ed9d048b4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Corridors/Wall_Corner_Interior.prefab using Guid(5a088a5f9e886a64b90e23ed9d048b4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7cf337b7d404f3d9c2d3fa72124706a1') in 0.003161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Textures/DiningRoom/Rug_Albedo.tif
+  artifactKey: Guid(a4e930220a796944783b228565f03152) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Rug_Albedo.tif using Guid(a4e930220a796944783b228565f03152) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8c97fa8b7235126c4cfcc9da0f565c42') in 0.002201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '34d4503b0edf802732590ea485baf139') in 0.002056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Environment/Corridors/Door.prefab
+  artifactKey: Guid(141a3c088bae48f42a579375904a411c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Corridors/Door.prefab using Guid(141a3c088bae48f42a579375904a411c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '56c65cd4d8713a1f1eca0ea06fd547d5') in 0.002003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Corridor/Window_Albedo.tif
+  artifactKey: Guid(438db02716bc99348bd5bf1f4f8fdb5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Window_Albedo.tif using Guid(438db02716bc99348bd5bf1f4f8fdb5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'af52204c57a3bf1977ffe948aaee0e8e') in 0.001831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Textures/Corridor/DoorPost_MetallicSmooth.tif
+  artifactKey: Guid(d87c5e66b380a074fa2264fd4da58aa6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/DoorPost_MetallicSmooth.tif using Guid(d87c5e66b380a074fa2264fd4da58aa6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6d8c6903c7eefe26e5cb88527893c377') in 0.002457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/Corridor/Light_MetallicSmooth.tif
+  artifactKey: Guid(9f3edd81529cce04494e693ad0887e84) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Light_MetallicSmooth.tif using Guid(9f3edd81529cce04494e693ad0887e84) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '878eed661b3422fd448622c2f4cdb339') in 0.002453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Environment/Bedroom/Wardrobe.prefab
+  artifactKey: Guid(1f2baa001e967a24fa7e0722636120b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Bedroom/Wardrobe.prefab using Guid(1f2baa001e967a24fa7e0722636120b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a622ca2d2cbad74d15842b168d9303e1') in 0.003512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/Corridor/Wall_Corridor_MetallicSmooth.tif
+  artifactKey: Guid(ba80831ff9ffb924f96dde6223f6fa8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Wall_Corridor_MetallicSmooth.tif using Guid(ba80831ff9ffb924f96dde6223f6fa8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'df4e18a0526c84afa770314c7c95805f') in 0.002006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/DiningRoom/Chair_MetallicSmooth.tif
+  artifactKey: Guid(1b213521cd84364439c5fb030fd7aa04) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Chair_MetallicSmooth.tif using Guid(1b213521cd84364439c5fb030fd7aa04) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c514ede8f69a22786afc7c4eefa1ef0a') in 0.001586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/DiningRoom/Fireplace_Occlusion.tif
+  artifactKey: Guid(8d729759afba04b47b3d471f834893af) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Fireplace_Occlusion.tif using Guid(8d729759afba04b47b3d471f834893af) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd61d1070df8d8d56166c2f0f85643b43') in 0.002252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/DiningRoom/Table_Occlusion.tif
+  artifactKey: Guid(87ed162bddc21c44e89dfeb850becb30) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Table_Occlusion.tif using Guid(87ed162bddc21c44e89dfeb850becb30) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f8cdb1c202971b7ff479f426b0871116') in 0.001902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/DiningRoom/Wall_Diningroom_MetallicSmooth.tif
+  artifactKey: Guid(764b14171f2beee4ca1a52714b902fab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Wall_Diningroom_MetallicSmooth.tif using Guid(764b14171f2beee4ca1a52714b902fab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f671218bb1702b5e1412f2eaa55ec0d8') in 0.002656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Textures/Corridor/Frames_AO.tif
+  artifactKey: Guid(7fca3d8aa70598c4ea6a0663f29c0772) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Frames_AO.tif using Guid(7fca3d8aa70598c4ea6a0663f29c0772) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '97c6eb439943fb5b23ea2217e5844ebe') in 0.003088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/VFX/CandleFlame.tif
+  artifactKey: Guid(e966fe96fc4c60f4fa9eff9e6d32ba67) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/VFX/CandleFlame.tif using Guid(e966fe96fc4c60f4fa9eff9e6d32ba67) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '388bae7113777a29fa57029fd55e80fb') in 0.002425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/VFX/wispySmoke.tif
+  artifactKey: Guid(b96c69e599825d84e985962673d1679c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/VFX/wispySmoke.tif using Guid(b96c69e599825d84e985962673d1679c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '16a85c395c2305ae07ebae8b4a76d83b') in 0.002642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/DiningRoom/Fireplace_MetallicSmooth.tif
+  artifactKey: Guid(f632a9c02b56d5c45befbcf4bb4176aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Fireplace_MetallicSmooth.tif using Guid(f632a9c02b56d5c45befbcf4bb4176aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fb88681e35db9f969483cc3025b96014') in 0.002287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Corridor/FramedPicture_MetallicSmooth.tif
+  artifactKey: Guid(98129ffddbd9e0644a0cb1b07bd530ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/FramedPicture_MetallicSmooth.tif using Guid(98129ffddbd9e0644a0cb1b07bd530ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ef3e060b7f87b9df26d36901a96d5f35') in 0.001861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/Corridor/Light_Normal.tif
+  artifactKey: Guid(94b0af9e2dc9dc144a9fee2252e35c5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Light_Normal.tif using Guid(94b0af9e2dc9dc144a9fee2252e35c5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8f35499fd6a9a5c627b15bc676e95de6') in 0.002280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/Corridor/DoorPost_Normal.tif
+  artifactKey: Guid(a2d1d6cc4343c544394bbc5abd74dff9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/DoorPost_Normal.tif using Guid(a2d1d6cc4343c544394bbc5abd74dff9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'eefe26df340e49c6fef5e12133f8d134') in 0.001904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Environment/Corridors/Rug_Corridor.prefab
+  artifactKey: Guid(d6f7474cae3e0ab43bce6c8505c5db19) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Corridors/Rug_Corridor.prefab using Guid(d6f7474cae3e0ab43bce6c8505c5db19) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9b3318dc96277e98e6286c1f97b7a7da') in 0.002291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Environment/Bathroom/Mirror.prefab
+  artifactKey: Guid(d6031845cf3b4ec40bda7a32e18cf967) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Bathroom/Mirror.prefab using Guid(d6031845cf3b4ec40bda7a32e18cf967) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4b946e21afab8de70371fc42df29e2de') in 0.001896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/DiningRoom/Cthulhu_Lamp_Normal.tif
+  artifactKey: Guid(8bf179a14d694db4cacb3a54934ee81f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Cthulhu_Lamp_Normal.tif using Guid(8bf179a14d694db4cacb3a54934ee81f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4e2db0dcc4bf786a32187285ceb751f8') in 0.002159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Environment/Bedroom/Bed.prefab
+  artifactKey: Guid(645ef604d3d32e045b044529dbc554af) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Bedroom/Bed.prefab using Guid(645ef604d3d32e045b044529dbc554af) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ac0dcee901f8bd0cf50d5e2515c51feb') in 0.002085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/VFX/Splash04Normal.tif
+  artifactKey: Guid(73e81e5a6e5b6874582e6c6d405d7491) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/VFX/Splash04Normal.tif using Guid(73e81e5a6e5b6874582e6c6d405d7491) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '140523c8a745a8305542cfd85bbdf7d6') in 0.002935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/VFX/ToonRampTint4.png
+  artifactKey: Guid(faa6985ef413994478c9d37d68e21fe9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/VFX/ToonRampTint4.png using Guid(faa6985ef413994478c9d37d68e21fe9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6c9824b5feb8c8882d87bed6ae8cb529') in 0.002429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/DiningRoom/Cthulhu_Lamp_Occlusion.tif
+  artifactKey: Guid(3fc488c9331779b4cb4179823da675a3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Cthulhu_Lamp_Occlusion.tif using Guid(3fc488c9331779b4cb4179823da675a3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '41b3a838e9f3576e764f3254101d7810') in 0.002344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/DiningRoom/Table_Normal.tif
+  artifactKey: Guid(c86f2b3234c0cf9488a549c8d3b6f199) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Table_Normal.tif using Guid(c86f2b3234c0cf9488a549c8d3b6f199) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bbdfe558e5d3c4df6d9d40ea861fc052') in 0.002155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Environment/Bedroom/Bedside_Table.prefab
+  artifactKey: Guid(c68b0496eaa4e75479451d4c408f629c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Bedroom/Bedside_Table.prefab using Guid(c68b0496eaa4e75479451d4c408f629c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'edc7c7d786a39074b79d899b4294e258') in 0.002393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Textures/Corridor/Floor_Corridor_Occlusion.tif
+  artifactKey: Guid(19dbd5766a358144d94e26ebae51f186) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Floor_Corridor_Occlusion.tif using Guid(19dbd5766a358144d94e26ebae51f186) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e98de0cf53d8c9187455e7b31df15b73') in 0.002230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/DiningRoom/Floor_Diningroom_Normal.tif
+  artifactKey: Guid(bc5dcc79315da614384872c43bc93923) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/DiningRoom/Floor_Diningroom_Normal.tif using Guid(bc5dcc79315da614384872c43bc93923) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4c577ff31a155ab53da9fc45b273c952') in 0.002531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Textures/Corridor/Light_Occlusion.tif
+  artifactKey: Guid(d76c7a9a85279b048b93119b0a0a3c7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Corridor/Light_Occlusion.tif using Guid(d76c7a9a85279b048b93119b0a0a3c7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3a4bbc9578a391dca85844faa49f2179') in 0.002448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065755 seconds.
+  path: Assets/Prefabs/Environment/Corridors/Wall_Straight_Exterior_01.prefab
+  artifactKey: Guid(e8b57bf1aa0bc904386562ebc4602661) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Corridors/Wall_Straight_Exterior_01.prefab using Guid(e8b57bf1aa0bc904386562ebc4602661) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f35d54cf35686255ef7ec1f154aa00bc') in 0.002849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Environment/Dinigroom/Candlestick.prefab
+  artifactKey: Guid(d775be624a1870245b73e82cbc922cfc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Dinigroom/Candlestick.prefab using Guid(d775be624a1870245b73e82cbc922cfc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fedc1762f4c8755d59323a778751c184') in 0.003668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Environment/Corridors/Wall_Straight_Exterior_02.prefab
+  artifactKey: Guid(58d816ba5e386644e8997f9e70931507) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Corridors/Wall_Straight_Exterior_02.prefab using Guid(58d816ba5e386644e8997f9e70931507) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1d6c45be400c7a264374cb7e5de53d02') in 0.002510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Environment/Dinigroom/Monster_Lamp.prefab
+  artifactKey: Guid(c4cfdd186096c1842a81a4293d1b80da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Dinigroom/Monster_Lamp.prefab using Guid(c4cfdd186096c1842a81a4293d1b80da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a20f6e61db560ef305011faf5d2516b3') in 0.003468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Environment/Dinigroom/Table.prefab
+  artifactKey: Guid(390c961e3e2b03342b3aabdfa362e13a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Dinigroom/Table.prefab using Guid(390c961e3e2b03342b3aabdfa362e13a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f379d0f2121c7f3721f2a07164a365bb') in 0.002036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Environment/Dinigroom/Clock.prefab
+  artifactKey: Guid(836b935a856cf8842a48d2069e17341f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Dinigroom/Clock.prefab using Guid(836b935a856cf8842a48d2069e17341f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6be1f90381c5fb27900f58e9e557806a') in 0.002767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8711d0f858e12a15b33d8e15daa47e44') in 0.001584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Environment/Corridors/Wall_Straight_Exterior_03.prefab
+  artifactKey: Guid(9aa36451a9a7f5148849a5de98e47e9e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Corridors/Wall_Straight_Exterior_03.prefab using Guid(9aa36451a9a7f5148849a5de98e47e9e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9df73e0ed3a85d420f152623310b81e0') in 0.001954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Environment/Dinigroom/Fireplace.prefab
+  artifactKey: Guid(de12a8ff68064d149b96fd74850abce6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Environment/Dinigroom/Fireplace.prefab using Guid(de12a8ff68064d149b96fd74850abce6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e42ff775f952761fb3813f71a547cf15') in 0.002073 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (21.9 KB). Loaded Objects now: 3570.
+Memory consumption went from 268.3 MB to 268.3 MB.
+Total: 2.470834 ms (FindLiveObjects: 0.131875 ms CreateObjectMapping: 0.044500 ms MarkObjects: 2.284375 ms  DeleteObjects: 0.009459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002605 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17c547000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:229)
+Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.5.0/Editor/Windows/CinemachineSettings.cs:193)
+Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.5.0/Editor/Windows/CinemachineSettings.cs:225)
+Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.5.0/Editor/Windows/CinemachineColliderPrefs.cs:61)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+[Library/PackageCache/com.unity.cinemachine@2.5.0/Editor/Windows/CinemachineSettings.cs line 193]
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (674ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (507ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3618 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (3.3 MB). Loaded Objects now: 4041.
+Memory consumption went from 358.2 MB to 354.9 MB.
+Total: 3.231667 ms (FindLiveObjects: 0.130500 ms CreateObjectMapping: 0.054875 ms MarkObjects: 2.443292 ms  DeleteObjects: 0.601875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001525 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17061f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Domain Reload Profiling:
+	ReloadAssembly (646ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (499ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (3.3 MB). Loaded Objects now: 4043.
+Memory consumption went from 356.4 MB to 353.1 MB.
+Total: 3.411917 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.054083 ms MarkObjects: 2.652250 ms  DeleteObjects: 0.564167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 76 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (3.3 MB). Loaded Objects now: 4043.
+Memory consumption went from 285.4 MB to 282.1 MB.
+Total: 3.197416 ms (FindLiveObjects: 0.138041 ms CreateObjectMapping: 0.051667 ms MarkObjects: 2.514583 ms  DeleteObjects: 0.492833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001522 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x170593000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/haoxiang/Desktop/CIS_410_Game_Programming/Assignment2/Assignment2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (654ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (507ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (3.3 MB). Loaded Objects now: 4045.
+Memory consumption went from 356.6 MB to 353.3 MB.
+Total: 3.137250 ms (FindLiveObjects: 0.132625 ms CreateObjectMapping: 0.053708 ms MarkObjects: 2.341000 ms  DeleteObjects: 0.609417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
