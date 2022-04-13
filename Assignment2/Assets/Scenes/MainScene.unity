@@ -4057,7 +4057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lamp: {fileID: 705507994}
-  Speed: 0.1
+  Speed: 0.8
 --- !u!1 &751359954
 GameObject:
   m_ObjectHideFlags: 0
