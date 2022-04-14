@@ -10,7 +10,7 @@ Rebecca Hu, Kai Xiong, Xiang Hao
 ## Descriptions of assignment requirements 2, 3, 4
 ### 2. Dot product
 - Use: The red light of Gargoyle will move by following the player.
-- Trigger: Plyaer (JohnLemon).
+- Trigger: Player (JohnLemon).
 
 ### 3. Linear interpolation
 - Use: Green ambient background light will flicker with time.
